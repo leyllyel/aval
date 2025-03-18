@@ -1,21 +1,21 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using System.Xml.Linq;
-using System.Xml;
+using System.Collections.ObjectModel;
 
-namespace AvaloniaApplication2;
-
-public partial class Win : Window
+namespace AvaloniaApplication2
 {
-    public Win()
+    public partial class Win : Window
     {
-        InitializeComponent();
-    }
+        public Win(ObservableCollection<Product> products)
+        {
+            InitializeComponent();
+            DataContext = products;
+        }
 
-    public Win(string name)
-    {
-        InitializeComponent();
-        NameWin.Text = $"Добро пожаловать, {name}!";
+        private void InitializeComponent()
+        {
+            AvaloniaXamlLoader.Load(this);
+        }
     }
 }

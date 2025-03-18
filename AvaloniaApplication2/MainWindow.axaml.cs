@@ -1,34 +1,39 @@
 using Avalonia.Controls;
-using Avalonia.Dialogs;
-using Xunit.Sdk;
+using Avalonia.Interactivity;
+using System.Collections.ObjectModel;
 
-namespace AvaloniaApplication2;
-
-public partial class MainWindow : Window
+namespace AvaloniaApplication2
 {
-    private const string CorrectLogin = "admin";
-    private const string CorrectPassword = "password123";
-    public MainWindow()
+    public partial class MainWindow : Window
     {
-        InitializeComponent();
-    }
+        public ObservableCollection<Product> Products { get; set; } = new ObservableCollection<Product>();
 
-
- 
-    private void Button_Click_1(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
-    {
-        string login = LoginBox.Text;
-        string password = PasswordBox.Text;
-
-        if (password == CorrectPassword)
+        public MainWindow()
         {
-            var win = new Win(login);
-            win.Show();
-            Close();
+            InitializeComponent();
+            DataContext = this;
+            ProductsListBox.ItemsSource = Products;
         }
-        else
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            ErrorMessage.Text = "Неверный пароль!";
+            if (decimal.TryParse(PriceBox.Text, out decimal price))
+            {
+                Products.Add(new Product
+                {
+                    Name = NameBox.Text,
+                    Price = price
+                });
+
+                NameBox.Clear();
+                PriceBox.Clear();
+            }
+        }
+
+        private void ShowProductsButton_Click(object sender, RoutedEventArgs e)
+        {
+            var productsWindow = new Win(Products);
+            productsWindow.Show();
         }
     }
 }
