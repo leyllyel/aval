@@ -1,21 +1,28 @@
-using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Markup.Xaml;
+using Avalonia.Interactivity;
 using System.Collections.ObjectModel;
 
 namespace AvaloniaApplication2
 {
     public partial class Win : Window
     {
+        public ObservableCollection<Product> Products { get; }
+
         public Win(ObservableCollection<Product> products)
         {
             InitializeComponent();
-            DataContext = products;
+            Products = products;
+            DataContext = this;
         }
 
-        private void InitializeComponent()
+        private void OnProductSelected(object sender, SelectionChangedEventArgs e)
         {
-            AvaloniaXamlLoader.Load(this);
+            if (ProductsListBox.SelectedItem is Product product)
+            {
+                var editWindow = new EditProductWindow(product, Products);
+                editWindow.ShowDialog(this);
+                
+            }
         }
     }
 }

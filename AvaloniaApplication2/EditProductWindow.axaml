@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="AvaloniaApplication2.EditProductWindow"
+        Title="Редактирование продукта">
+
+	<StackPanel Margin="10" Background="Gray">
+		<TextBlock Text="Название товара:" Margin="2" FontWeight="Bold" HorizontalAlignment="Center" FontSize="14" />
+		<TextBox Name="EditNameBox" Width="250" Margin="5" Background="LightGray" Foreground="Black" FontSize="14"/>
+
+		<TextBlock Text="Цена товара:" Margin="2" FontWeight="Bold" HorizontalAlignment="Center" FontSize="14" />
+		<TextBox Name="EditPriceBox" Width="250" Margin="5" Background="LightGray" Foreground="Black" FontSize="14"/>
+
+		<Button Content="Сохранить" Click="OnEditClick" HorizontalAlignment="Center" Background="Black" Foreground="White" Margin="5"/>
+		<Button Content="Удалить" Click="OnDeleteClick" HorizontalAlignment="Center" Background="Black" Foreground="White" Margin="5"/>
+	</StackPanel>
+</Window>
