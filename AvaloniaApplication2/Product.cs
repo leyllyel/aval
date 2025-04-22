@@ -7,6 +7,7 @@ namespace AvaloniaApplication2
     {
         private string _name = "";
         private decimal _price;
+        private int _count;
 
         public string Name
         {
@@ -33,6 +34,18 @@ namespace AvaloniaApplication2
                 }
             }
         }
+        public int Count
+        {
+            get => _count;
+            set
+            {
+                if (_count != value)
+                {
+                    _count = value;
+                    OnPropertyChanged(nameof(Count));
+                }
+            }
+        }
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -41,6 +54,5 @@ namespace AvaloniaApplication2
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public override string ToString() => $"{Name} - {Price}";
     }
 }

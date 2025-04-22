@@ -2,30 +2,36 @@
          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
          x:Class="AvaloniaApplication2.Win"
          xmlns:local="clr-namespace:AvaloniaApplication2"
+		
          x:DataType="local:Win"
          Title="Список продуктов">
 
 	<StackPanel Margin="10" Background="Gray">
-		<TextBlock Text="Список продуктов" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center"/>
-
-		<ListBox Name="ProductsListBox" ItemsSource="{Binding Products}" Margin="5" Background="LightGray" Foreground="Black" FontSize="14"
-                  SelectionChanged="OnProductSelected">
-			<ListBox.Styles>
-				<Style Selector="ListBoxItem">
-					<Setter Property="Width" Value="300"/>
-					<Setter Property="HorizontalAlignment" Value="Left"/>
-				</Style>
-			</ListBox.Styles>
-
+		<TextBlock Text="Список продуктов" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center"/>
+		<StackPanel Orientation="Vertical">
+		<ListBox Name="ProductsListBox" ItemsSource="{Binding Products}" Margin="5" Background="LightGray" Foreground="Black" FontSize="14">
 			<ListBox.ItemTemplate>
 				<DataTemplate x:DataType="local:Product">
 					<StackPanel Orientation="Horizontal">
-						<TextBlock Text="{Binding Name}" Margin="5" FontSize="14"/>
-						<TextBlock Text="{Binding Price}, " Margin="5" FontSize="14"/>
+						<TextBlock Text="{Binding Name}" Margin="5" Height="30" FontSize="20" Width="200"/>
+						<TextBlock Text="Цена: " Height="30" FontSize="20" />
+						<TextBlock Text="{Binding Price, StringFormat={}{0} руб.}" Margin="5" Height="30" FontSize="20" Width="200"/>
+						<TextBlock Text="Количество: " Height="30" FontSize="20" />
+						<TextBlock Text="{Binding Count, StringFormat={}{0} шт.}" Margin="5" Height="30" FontSize="20" Width="200"/>						
+						<Button x:Name="editButton" Content="Редактирование" Cursor="Hand" Margin="30,0,0,0" HorizontalAlignment="Right" Click="AddEditButton_Click">
+							<Image x:Name="Edit" Source ="edit.png" Height="25"/>
+						</Button>
+							<Button x:Name="deleteButton" Content="Удаление" Cursor="Hand" Margin="10,0,0,0" HorizontalAlignment="Right" Click="AddDeleteButton_Click">
+								<Image x:Name="Delete" Source ="delete.png" Height="25" />
+						</Button>
 					</StackPanel>
 				</DataTemplate>
 			</ListBox.ItemTemplate>
 		</ListBox>
+		</StackPanel>
+		<Button x:Name="backButton" Background="LightGray" Content="Назад" Cursor="Hand" Margin="10,0,0,0" HorizontalAlignment="Left" Click="BackClick">
+			<Image x:Name="Back" Source ="back.png" Height="30" />
+		</Button>
 	</StackPanel>
 
 </Window>

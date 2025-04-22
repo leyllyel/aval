@@ -40,14 +40,12 @@ public partial class EditProductWindow : Window
         _product.Name = name;
         _product.Price = price;
 
+
+        Win win = new Win(_products);
+        win.Show();
         Close();
     }
 
-    private void OnDeleteClick(object sender, RoutedEventArgs e)
-    {
-        _products.Remove(_product);
-        Close();
-    }
 
     private void ShowErrorMessage(string message)
     {

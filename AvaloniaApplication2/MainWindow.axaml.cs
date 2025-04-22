@@ -17,8 +17,11 @@ namespace AvaloniaApplication2
         {
             string name = NameBox.Text;
             string priceInput = PriceBox.Text;
+            string countInput = CountBox.Text;
 
-            
+
+
+
             if (string.IsNullOrWhiteSpace(name))
             {
                 ShowErrorMessage("¬ведите название продукта!");
@@ -30,17 +33,24 @@ namespace AvaloniaApplication2
                 ShowErrorMessage("¬ведите корректную цену");
                 return;
             }
+            if (!int.TryParse(countInput, out int count) || count < 0)
+            {
+                ShowErrorMessage("¬ведите корректное количество товара");
+                return;
+            }
 
-      
-            products.Add(new Product { Name = name, Price = price });
+
+            products.Add(new Product { Name = name, Price = price, Count = count });
 
             NameBox.Text = "";
             PriceBox.Text = "";
+            CountBox.Text = "";
         }
 
         private void ShowProductsButton_Click(object sender, RoutedEventArgs e)
         {
             new Win(products).Show();
+            this.Close();
         }
 
         private void ShowErrorMessage(string message)
