@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\AvaloniaApplication2.csproj": {}
+    "C:\\Users\\blockchain\\Desktop\\лейл\\aval\\AvaloniaApplication2\\AvaloniaApplication2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\AvaloniaApplication2.csproj": {
+    "C:\\Users\\blockchain\\Desktop\\лейл\\aval\\AvaloniaApplication2\\AvaloniaApplication2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\AvaloniaApplication2.csproj",
+        "projectUniqueName": "C:\\Users\\blockchain\\Desktop\\лейл\\aval\\AvaloniaApplication2\\AvaloniaApplication2.csproj",
         "projectName": "AvaloniaApplication2",
-        "projectPath": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\AvaloniaApplication2.csproj",
+        "projectPath": "C:\\Users\\blockchain\\Desktop\\лейл\\aval\\AvaloniaApplication2\\AvaloniaApplication2.csproj",
         "packagesPath": "C:\\Users\\blockchain\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\obj\\",
+        "outputPath": "C:\\Users\\blockchain\\Desktop\\лейл\\aval\\AvaloniaApplication2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -10,6 +10,9 @@
 		<TextBlock Text="Цена товара:" Margin="2" FontWeight="Bold" HorizontalAlignment="Center" FontSize="14" />
 		<TextBox Name="EditPriceBox" Width="250" Margin="5" Background="LightGray" Foreground="Black" FontSize="14"/>
 
+		<TextBlock Text="Количество товаров:" Margin="2" FontWeight="Bold" HorizontalAlignment="Center" FontSize="14" />
+		<TextBox Name="EditCountBox" Width="250" Margin="5" Background="LightGray" Foreground="Black" FontSize="14"/>
+
 		<Button Content="Сохранить" Click="OnEditClick" HorizontalAlignment="Center" Background="Black" Foreground="White" Margin="5"/>
 	</StackPanel>
 </Window>

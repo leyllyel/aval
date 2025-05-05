@@ -18,12 +18,14 @@ public partial class EditProductWindow : Window
         _products = products;
         EditNameBox.Text = _product.Name;
         EditPriceBox.Text = _product.Price.ToString();
+        EditCountBox.Text = _product.Count.ToString();
     }
 
     private void OnEditClick(object sender, RoutedEventArgs e)
     {
         string name = EditNameBox.Text;
         string priceInput = EditPriceBox.Text;
+        string countInput = EditCountBox.Text;
 
         if (string.IsNullOrWhiteSpace(name))
         {
@@ -36,10 +38,15 @@ public partial class EditProductWindow : Window
             ShowErrorMessage("¬ведите корректную цену (положительное число)!");
             return;
         }
+        if (!int.TryParse(countInput, out int count) || count < 0)
+        {
+            ShowErrorMessage("¬ведите корректное количество!");
+            return;
+        }
 
         _product.Name = name;
         _product.Price = price;
-
+        _product.Count = count;
 
         Win win = new Win(_products);
         win.Show();

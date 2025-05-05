@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\",
+  "WorkspaceRootPath": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\ley\\aval\\avaloniaapplication2\\win.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\win.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\ley\\aval\\avaloniaapplication2\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\ley\\aval\\avaloniaapplication2\\editproductwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\\u043B\u0435\u0439\u043B\\aval\\avaloniaapplication2\\editproductwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\editproductwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\ley\\aval\\avaloniaapplication2\\editproductwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\\u043B\u0435\u0439\u043B\\aval\\avaloniaapplication2\\editproductwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\editproductwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\ley\\aval\\avaloniaapplication2\\win.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\win.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\ley\\aval\\avaloniaapplication2\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\\u043B\u0435\u0439\u043B\\aval\\avaloniaapplication2\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\ley\\aval\\avaloniaapplication2\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\\u043B\u0435\u0439\u043B\\aval\\avaloniaapplication2\\win.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\win.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\\u043B\u0435\u0439\u043B\\aval\\avaloniaapplication2\\win.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\win.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\\u043B\u0435\u0439\u043B\\aval\\avaloniaapplication2\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|c:\\users\\blockchain\\desktop\\\u043B\u0435\u0439\u043B\\aval\\avaloniaapplication2\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F955908E-3864-4110-AA2E-18960D3C1CD1}|AvaloniaApplication2\\AvaloniaApplication2.csproj|solutionrelative:avaloniaapplication2\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,28 +38,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EditProductWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\EditProductWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\EditProductWindow.axaml.cs",
               "RelativeDocumentMoniker": "AvaloniaApplication2\\EditProductWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\EditProductWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\EditProductWindow.axaml.cs",
               "RelativeToolTip": "AvaloniaApplication2\\EditProductWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T08:23:05.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EditProductWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\EditProductWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\EditProductWindow.axaml",
               "RelativeDocumentMoniker": "AvaloniaApplication2\\EditProductWindow.axaml",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\EditProductWindow.axaml",
+              "ToolTip": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\EditProductWindow.axaml",
               "RelativeToolTip": "AvaloniaApplication2\\EditProductWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-22T08:23:02.995Z",
@@ -67,37 +67,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "AvaloniaApplication2\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\MainWindow.axaml.cs",
               "RelativeToolTip": "AvaloniaApplication2\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T08:23:02.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Win.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\Win.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\Win.axaml.cs",
               "RelativeDocumentMoniker": "AvaloniaApplication2\\Win.axaml.cs",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\Win.axaml.cs*",
-              "RelativeToolTip": "AvaloniaApplication2\\Win.axaml.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\Win.axaml.cs",
+              "RelativeToolTip": "AvaloniaApplication2\\Win.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T08:22:56.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Win.axaml",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\Win.axaml",
+              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\Win.axaml",
               "RelativeDocumentMoniker": "AvaloniaApplication2\\Win.axaml",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\Win.axaml",
+              "ToolTip": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\Win.axaml",
               "RelativeToolTip": "AvaloniaApplication2\\Win.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-22T08:22:54.607Z",
@@ -105,24 +105,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\Product.cs",
               "RelativeDocumentMoniker": "AvaloniaApplication2\\Product.cs",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\Product.cs",
+              "ToolTip": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\Product.cs",
               "RelativeToolTip": "AvaloniaApplication2\\Product.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T08:22:38.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\MainWindow.axaml",
               "RelativeDocumentMoniker": "AvaloniaApplication2\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\blockchain\\Desktop\\ley\\aval\\AvaloniaApplication2\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\blockchain\\Desktop\\\u043B\u0435\u0439\u043B\\aval\\AvaloniaApplication2\\MainWindow.axaml",
               "RelativeToolTip": "AvaloniaApplication2\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-22T08:22:37.984Z",
